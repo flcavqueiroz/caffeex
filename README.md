@@ -9,9 +9,9 @@
 * Rode as migrações.
 
 ```
-cd estoque
+cd caffeex_estoque
 python3 -m venv .venv
-source .venv/bin/activate (windows: .venv\Scripts\activate.bat)
+source .venv/bin/activate (Windows: .venv\Scripts\activate.bat)
 pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
