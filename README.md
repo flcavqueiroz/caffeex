@@ -7,6 +7,7 @@
 * Ative o virtualenv.
 * Instale as dependências.
 * Rode as migrações.
+* Rode o servidor Django local.
 
 ```
 cd caffeex_estoque
@@ -16,6 +17,10 @@ pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
 python manage.py runserver
+```
+* Criar usuário admin
+```
+python manage.py createsuperuser
 ```
 * Para acessar area de gerente, basta acessar /admin
 
